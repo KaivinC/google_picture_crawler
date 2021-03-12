@@ -10,7 +10,7 @@ download_folder_name = "./crawler_download"
 img_num = 300
 
 #設定要查詢的keyword
-key_word = "dog"
+key_word = "Pug"
 
 download_folder_name = download_folder_name + "_" +key_word
 if not os.path.exists(download_folder_name):
@@ -18,7 +18,7 @@ if not os.path.exists(download_folder_name):
 
 #爬蟲參數
 sleep_time = 1
-scroll_down = img_num//100*15
+scroll_down = img_num//100*18
 wait_time = 1
 
 #設定資料夾路徑
